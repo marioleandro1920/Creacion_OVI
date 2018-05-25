@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+/* HEADER */
+
+.Header-SB{
+  min-height: 2.5em;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.Nav-Container-SB{
+  width: 80%;
+  text-align: center;
+}
+
+.Ul-SB{
+  list-style: none;
+  margin: 0;
+  padding: 2em;
+  display: flex;
+}
+
+.Ul-Items-SB{
+padding: 1em;
+margin: auto;
+}
+
+/* HEADER */
+
+
+/* SECCION Diseño De Sitios Web*/
+.Section1-Sitios-SB{
+  max-width: 1200px;
+  padding: 0 2em;
+  margin: auto;
+}
+.Container-Sitios-SB{
+  position: relative;
+  padding: 1.5em;
+  display: flex;
+  border: 1px solid black;
+  margin-bottom: 1.5em;
+  max-width: 50em;
+  margin: 0 auto 1.5em;
+}
+
+.Title-Sitios-SB{
+  position: absolute;
+  top: -10px;
+  left: 22px;
+  background: white;
+}
+
+.Title-Sitios-Git-SB{
+ width: 2em;
+}
+
+.Title-Sitios-Html-SB{
+width: 4em;
+}
+
+.Title-Sitios-CSS-SB{
+width: 3em;
+}
+
+.Img-Sitios-SB{
+  height: 12em;
+  width: 12em;
+}
+
+.P-Sitios-SB{
+  padding-left: 1em;
+  text-align: justify;
+}
+
+
+/* SECCION Diseño De Sitios Web*/
+
+
+
+/* SECCION Editores de Codigo Web*/
+.Section2-Editores-SB{
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 2em;
+  margin: auto;
+}
+.Container-Editores-SB{
+
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  margin-bottom: 1.5em;
+  max-width: 18em;
+}
+
+.Title-Editores-SB{
+padding: .5em;
+}
+
+.Img-Editores-SB{
+  height: 12em;
+  width: 12em;
+  border-radius: 50%
+}
+
+.P-Editores-SB{
+  text-align: justify;
+}
+
+
+/* SECCION Editores de Codigo Web*/
+
+
+/*Footer*/
+
+.Footer-SB{
+  border-top: 1px solid black;
+  padding: 1em 0;
+}
